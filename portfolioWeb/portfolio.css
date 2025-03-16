@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* Base */
+
+
+body {
+    background-color: gainsboro;
+    /* import font  */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+      /* import font end  */
+}
+
+/* Header */
+
+.container{
+    
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0, 15px;
+}
+
+
+.header{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom-right-radius: 100px;
+    background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+    color: #fff;
+}
+.header-img{
+    border-bottom-right-radius: 80;
+}
